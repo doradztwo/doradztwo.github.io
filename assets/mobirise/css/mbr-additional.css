@@ -27,19 +27,19 @@ body {
 }
 .display-5 {
   font-family: 'Jost', sans-serif;
-  font-size: 1.8rem;
+  font-size: 1rem;
   line-height: 1.5;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 2.25rem;
+  font-size: 1.25rem;
 }
 .display-7 {
   font-family: 'Jost', sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.1rem;
   line-height: 1.5;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 2.25rem;
+  font-size: 1.375rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -68,14 +68,14 @@ body {
     line-height: calc( 1.4 * (1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.44rem;
-    font-size: calc( 1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.8rem;
+    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 1.44rem;
-    font-size: calc( 1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.88rem;
+    font-size: calc( 1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -1134,7 +1134,7 @@ a {
   text-align: left;
 }
 .cid-tvcDmpozkR {
-  padding-top: 5rem;
+  padding-top: 1rem;
   padding-bottom: 0rem;
   background-color: #ffffff;
 }
@@ -1152,7 +1152,7 @@ a {
 }
 .cid-tv84wbTE1X {
   padding-top: 0rem;
-  padding-bottom: 4rem;
+  padding-bottom: 0rem;
   background: #ffffff;
 }
 .cid-tv84wbTE1X .mbr-fallback-image.disabled {
@@ -1227,9 +1227,12 @@ a {
   padding-right: 1.5rem;
   color: #6592e6;
 }
+.cid-tv84wbTE1X .card-title {
+  text-align: left;
+}
 .cid-tv86GuD7CD {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 0px;
+  padding-bottom: 15px;
   background-color: #232323;
   overflow: hidden;
 }
@@ -1600,8 +1603,8 @@ a {
   background-color: #ffffff;
 }
 .cid-tv86GuD7CD {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 0px;
+  padding-bottom: 15px;
   background-color: #232323;
   overflow: hidden;
 }
@@ -1972,8 +1975,8 @@ a {
   background-color: #ffffff;
 }
 .cid-tv86GuD7CD {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 0px;
+  padding-bottom: 15px;
   background-color: #232323;
   overflow: hidden;
 }
@@ -2344,8 +2347,8 @@ a {
   background-color: #ffffff;
 }
 .cid-tv86GuD7CD {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 0px;
+  padding-bottom: 15px;
   background-color: #232323;
   overflow: hidden;
 }
